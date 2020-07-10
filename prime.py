@@ -12,4 +12,3 @@ else:
 		i=i+1
 	else:
 		print("yes prime")
-

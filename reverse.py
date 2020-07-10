@@ -5,6 +5,7 @@ x = 0
 if n < 0:
 	n = (-n) 
 while n > 0:
-	x = (x*10) +(n % 10)
+	a = n % 10
+	x = (x*10) + a
 	n = n // 10
 print(x)
